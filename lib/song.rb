@@ -21,7 +21,6 @@ class Song
   def artist_name
     if self.artist.name
       self.artist.name
-      binding.pry
     else
       nil
     end
