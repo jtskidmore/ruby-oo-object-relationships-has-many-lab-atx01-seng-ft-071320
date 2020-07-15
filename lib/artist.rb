@@ -24,13 +24,7 @@ class Artist
   end
 
   def self.song_count
-    counter = 0
-    Song.all.each do |song|
-      if song.artist == self.artist
-        counter += 1
-      end
-    end
-    counter
+    Song.all.length
   end
 
 end
