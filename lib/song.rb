@@ -2,7 +2,7 @@
 
 class Song
 
-  @@songs = []
+  @@all = []
 
   def initialize (name)
     @name = name
