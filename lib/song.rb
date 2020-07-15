@@ -18,8 +18,10 @@ class Song
     @@all
   end
 
-  def song
-    
+  def artist(artist)
+    @@all.select do |song|
+      song.artist == artist
+    end
   end
 
 end
