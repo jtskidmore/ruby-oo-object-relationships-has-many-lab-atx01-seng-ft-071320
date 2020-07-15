@@ -18,4 +18,12 @@ class Song
     @@all
   end
 
+  def artist_name
+    Song.all.each do |song|
+      if song == self
+        song.artist.name
+      end
+    end
+  end
+
 end
