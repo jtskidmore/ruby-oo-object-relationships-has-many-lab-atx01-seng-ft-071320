@@ -27,7 +27,7 @@ class Artist
     counter = 0
     Song.all.each do |song|
       binding.pry
-      if song.artist == self.artist
+      if song.artist == self
         counter += 1
       end
     end
