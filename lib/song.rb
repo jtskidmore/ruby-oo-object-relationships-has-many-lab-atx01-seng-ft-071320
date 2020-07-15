@@ -23,7 +23,7 @@ class Song
       self.artist.name
       binding.pry
     elsif self.artist == nil
-      
+
       nil
     end
   end
