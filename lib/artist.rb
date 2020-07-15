@@ -17,5 +17,5 @@ class Artist
       song.artist == self
     end
   end
-
+binding.pry
 end
