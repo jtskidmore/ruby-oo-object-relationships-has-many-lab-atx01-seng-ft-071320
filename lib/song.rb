@@ -18,4 +18,8 @@ class Song
     @@all
   end
 
+  def song
+    
+  end
+
 end
