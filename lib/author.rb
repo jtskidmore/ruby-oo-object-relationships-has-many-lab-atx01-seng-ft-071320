@@ -14,5 +14,5 @@ class Author
     @@songs
   end
 
-  
+
 end

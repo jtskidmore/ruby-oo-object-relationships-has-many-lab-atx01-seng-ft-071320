@@ -8,4 +8,6 @@ class Artist
     @name = name
   end
 
+  
+
 end
