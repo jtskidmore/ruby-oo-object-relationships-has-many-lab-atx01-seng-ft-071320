@@ -23,7 +23,7 @@ class Artist
     add_song(new_song)
   end
 
-  def song_count
+  def self.song_count
     counter = 0
     Song.all.each do |song|
       binding.pry
