@@ -13,4 +13,8 @@ class Post
     @@all
   end
 
+  def title
+    @title
+  end
+
 end
