@@ -18,8 +18,4 @@ class Song
     @@all
   end
 
-  def artist=(name)
-    @@all[0] = name
-  end
-
 end
