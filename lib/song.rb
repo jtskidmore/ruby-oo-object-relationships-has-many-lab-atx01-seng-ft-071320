@@ -20,8 +20,7 @@ class Song
 
   def artist_name
     Song.all.each do |song|
-      binding.pry
-      if song == self
+      if song.name == self.name
         song.artist.name
       end
     end
