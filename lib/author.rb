@@ -8,7 +8,16 @@ class Author
     @name = name
   end
 
+  def posts
+  end
 
+  def add_post (post)
+    post.author = self
+  end
 
-
+  def posts
+    Post.all.select do |post|
+      post.author == self
+    end
+  end
 end
