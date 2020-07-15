@@ -1,4 +1,4 @@
-
+require 'pry'
 
 class Song
 
@@ -20,6 +20,7 @@ class Song
 
   def artist_name
     Song.all.each do |song|
+      binding.pry
       if song == self
         song.artist.name
       end
